@@ -1,8 +1,16 @@
 
-const Button = ({text = "Click Me"}) => {
+const Button = ({ text = "Click Me" }) => { //props
+  const myStyle = {
+    color: "white",
+    fontWeight: "bolder",
+    padding: 10,
+    marginTop: 20,
+    backgroundColor: "grey"
+  }
+
   return (
     <div>
-      <button>{text}</button>
+      <button style={myStyle}>{text}</button>
     </div>
   )
 }
