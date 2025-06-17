@@ -1,12 +1,10 @@
-import React from 'react'
-import Button from './Button'
+
 
 const Home = () => {
 
   return (
     <div>
-      <h1>You are in Home Page Now......</h1>
-      <Button />
+      <h1>You are on Home Page...</h1>
     </div>
   )
 }
